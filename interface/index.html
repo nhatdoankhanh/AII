@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#10647a"><title>Diabetes Research AI</title><link rel="stylesheet" href="/static/app.css"><script src="/static/app.js" defer></script></head>
+<body>
+{% macro ico(name) %}<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="{{ {'plus':'M12 4v16M4 12h16','menu':'M3 5h18v14H3z M9 5v14','chart':'M4 4v16h16 M8 16v-3 M13 16V8 M18 16v-5','book':'M3 5q5-2 9 1 4-3 9-1v14q-5-2-9 1-4-3-9-1z M12 6v14','controls':'M4 7h9m4 0h3M4 17h3m4 0h9 M13 4v6 M8 14v6','arrow':'M12 19V5m-6 6 6-6 6 6','close':'M5 5l14 14M19 5 5 19','trash':'M4 7h16M9 7V4h6v3 M6 7l1 14h10l1-14','chat':'M3 4h18v13H9l-5 4V4'}[name] }}"/></svg>{% endmacro %}
+<button class="scrim" id="scrim" hidden aria-label="Đóng bảng"></button>
+<aside id="sidebar" aria-label="Lịch sử trò chuyện"><div class="brand"><span class="brand-mark">D</span> Diabetes Research AI<button class="icon mobile-close" data-close aria-label="Đóng lịch sử">{{ico('close')}}</button></div>
+<button class="new" id="new-thread">{{ico('plus')}}Cuộc trò chuyện mới</button>
+<h2 class="side-label">Gần đây</h2><div id="history"></div>
+<div class="side-bottom"><button class="tool" data-view="research">{{ico('chart')}}Thực nghiệm</button><button class="tool" data-view="knowledge">{{ico('book')}}Kho tri thức</button>
+<div id="model-status" role="status"><i></i><span>Đang kiểm tra Ollama…</span></div><div class="workspace"><span>DR</span><div><b>Không gian nghiên cứu</b><small>Chạy cục bộ</small></div></div></div></aside>
+<main><header class="top"><button class="icon" id="toggle-history" aria-label="Lịch sử trò chuyện">{{ico('menu')}}</button><h1 id="page-title">Diabetes Research AI</h1><span id="chat-model">{{model_label}}</span><button class="profile-toggle" id="toggle-profile">{{ico('controls')}}Hồ sơ</button></header>
+<div id="screen" class="screen"><section class="chat" aria-label="Hội thoại">
+<div class="feed" id="feed"><div class="transcript" id="conversation" role="log" aria-live="polite"></div></div>
+<div class="compose"><div class="chips" hidden><button>Nên ăn gì?</button><button>Biến chứng thế nào?</button><button>Nên dùng thuốc gì?</button></div><button id="web-search-toggle" class="web-search-toggle" type="button" aria-pressed="true">Tìm kiếm trực tuyến · Bật</button><form id="ask"><textarea id="question" rows="1" data-limit="{{question_limit}}" aria-describedby="question-count" placeholder="Nhắn tin về bệnh tiểu đường…" aria-label="Nội dung tin nhắn"></textarea><button class="send" id="send" aria-label="Gửi tin nhắn">{{ico('arrow')}}</button></form><small id="question-count" hidden></small><div id="chat-error" role="alert"></div><small class="disclaimer">Thông tin mang tính tham khảo. Hãy trao đổi với nhân viên y tế về chẩn đoán và điều trị.</small></div></section>
+<aside id="profile" aria-label="Hồ sơ sàng lọc"><button class="icon mobile-close" data-close aria-label="Đóng hồ sơ">{{ico('close')}}</button><form id="form" class="profile-form"><div class="row"><h2>Hồ sơ sàng lọc</h2><select id="sample" aria-label="Nạp hồ sơ minh họa"><option value="">Nạp hồ sơ mẫu</option><option value="low">Mẫu dưới ngưỡng</option><option value="high">Mẫu có nguy cơ</option><option value="survey">Mẫu bảng hỏi</option></select></div>
+<div class="seg" role="group" aria-label="Nguồn đầu vào"><button type="button" data-mode="lab" class="on">Có xét nghiệm</button><button type="button" data-mode="survey">Bảng hỏi sức khỏe</button></div>
+<div class="grid">
+{% macro num(k,label,extra='') %}<label class="{{extra}}">{{label}}<input type="number" name="{{k}}" min="{{fields[k][1]}}" max="{{fields[k][2]}}" step="any" placeholder="Nhập giá trị"></label>{% endmacro %}
+{% macro yn(k,label,extra='') %}<label class="{{extra}}">{{label}}<select name="{{k}}"><option value="">Chưa biết</option><option value="1">Có</option><option value="0">Không</option></select></label>{% endmacro %}
+{{num("age","Tuổi (năm)")}}{{num("bmi","BMI (kg/m²)")}}
+<label>Giới tính theo bộ dữ liệu<select name="female"><option value="">Chưa biết</option><option value="1">Nữ</option><option value="0">Nam</option></select></label>
+{{yn("bp","Tiền sử tăng huyết áp")}}{{yn("heart","Tiền sử bệnh tim")}}
+{{num("a1c","HbA1c (%)","lab")}}{{num("glucose","Đường huyết (mg/dL)","lab")}}
+{{yn("active","Có vận động trong tháng qua","survey")}}{{yn("chol","Tiền sử cholesterol cao","survey")}}</div>
+<details id="extra"><summary>Thông tin để phân loại thể bệnh</summary><p>Có thể bỏ qua nếu bạn chỉ muốn sàng lọc. Dùng dữ liệu mẫu để xem đầy đủ bước phân loại.</p><div class="grid">
+{{num("glucose","Đường huyết (mg/dL)","survey")}}
+{% for k in special[:-1] %}{{yn(k,fields[k][0])}}{% endfor %}
+{{num("waist","Vòng eo (thang số bộ 04)")}}
+<label>Hiện đang mang thai<select name="pregnant"><option value="">Chưa biết</option><option value="yes">Có</option><option value="no">Không</option></select></label></div></details>
+<div class="foot"><button class="primary" type="submit">Tính ước tính</button><span id="form-error" role="alert"></span></div></form>
+<section class="result" id="result" hidden><h2 id="verdict"></h2><div id="result-text"></div></section><p class="notice">Điểm sàng lọc được tính từ mô hình nghiên cứu. Bác sĩ xác nhận thể bệnh qua thăm khám và xét nghiệm.</p></aside></div>
+<article class="tools-view" id="tools-view" hidden><button class="back" id="back">← Trở về hội thoại</button><section id="research" class="view" hidden><div class="heading"><h1>Kết quả thực nghiệm</h1><p>Ba kiến trúc học trên cùng ba bộ dữ liệu và cùng cách chia tập. {{metrics.winner}} đạt điểm chọn mô hình cao nhất trên validation.</p></div>
+<div class="stats">{% for k,n in [('lab','Sàng lọc qua xét nghiệm'),('survey','Sàng lọc qua bảng hỏi'),('type','Phân loại 12 thể bệnh')] %}<article class="card"><h3>{{n}}</h3><strong>{{'%.1f'|format(metrics.test[k].accuracy*100)}}%</strong><small>Accuracy trên {{metrics.test[k].n}} mẫu test</small></article>{% endfor %}</div>
+<div class="card"><h2>So sánh trên validation</h2><table><tr><th>Kiến trúc</th><th>Epoch tốt nhất</th><th>Điểm chọn mô hình</th></tr>{% for k,v in metrics.candidates.items() %}<tr><td>{{k}}</td><td>{{v.epoch}}</td><td>{{'%.4f'|format(v.score)}}</td></tr>{% endfor %}</table><p>Điểm là trung bình balanced accuracy của hai chế độ sàng lọc và macro-F1 của phân loại thể bệnh.</p></div>
+<div class="figures">{% for f,title in [('01-phan-bo','Phân bố nhãn'),('02-tuong-quan','Tương quan đầu vào'),('03-so-sanh','Quá trình học'),('04-sang-loc','Ma trận sàng lọc'),('05-the-benh','Ma trận phân loại')] %}<figure class="card"><figcaption>{{title}}</figcaption><a href="/charts/{{f}}.png" target="_blank"><img src="/charts/{{f}}.png" alt="{{title}}"></a></figure>{% endfor %}</div><details class="card"><summary>Mã thể bệnh trong các biểu đồ</summary><ol start="0">{% for t in types %}<li>{{t}}</li>{% endfor %}</ol></details></section>
+<section id="knowledge" class="view" hidden><div class="heading"><h1>Kho tri thức</h1><p>Tra cứu những nội dung mà các agent có thể dùng để trả lời.</p></div><div class="card"><h2>Kết nối trên máy demo</h2><p id="status">Đang kiểm tra…</p><button id="refresh">Kiểm tra lại</button></div>
+<div class="layout"><section class="card"><h2>Tra cứu đoạn nguồn</h2>
+<form id="evidence-search" role="search" aria-label="Tra cứu kho tri thức">
+<label for="evidence-query">Từ khóa hoặc câu hỏi</label>
+<div class="query-row"><input type="search" id="evidence-query" maxlength="600" placeholder="Ví dụ: HbA1c có cần nhịn ăn?"><button type="submit">Tìm</button></div>
+<label for="topic">Chủ đề</label><select id="topic"><option value="">Tất cả chủ đề</option>{% for k,v in topics.items() %}<option value="{{k}}">{{v}}</option>{% endfor %}</select></form>
+<p id="evidence-status" role="status"></p><div id="evidence"></div></section><section class="card"><h2>Danh mục nguồn</h2><ol>{% for s in sources.values() %}<li><a href="{{s.url}}" target="_blank" rel="noreferrer">{{s.title}}</a><small>{{s.owner}} · {{s.format}}</small></li>{% endfor %}</ol></section></div></section></article>
+</main></body></html>
+

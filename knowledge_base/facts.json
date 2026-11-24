@@ -1,0 +1,283 @@
+[
+ [
+  "W01",
+  "overview",
+  "Đái tháo đường",
+  "Đái tháo đường xảy ra khi glucose trong máu tăng cao. Các thể thường gặp gồm típ 1, típ 2 và đái tháo đường thai kỳ.",
+  "What are the different types of diabetes?"
+ ],
+ [
+  "W02",
+  "symptom",
+  "Triệu chứng",
+  "Khát nhiều, tiểu nhiều, mệt, nhìn mờ hoặc vết thương lâu lành là những dấu hiệu có thể gặp. Một số người có rất ít triệu chứng.",
+  "What are the symptoms of diabetes?"
+ ],
+ [
+  "W02",
+  "symptom",
+  "Típ 2",
+  "Triệu chứng típ 2 có thể xuất hiện từ từ. Khi có triệu chứng hoặc yếu tố nguy cơ, hãy trao đổi với nhân viên y tế về xét nghiệm.",
+  "Type 2 diabetes symptoms"
+ ],
+ [
+  "W03",
+  "test",
+  "Xét nghiệm",
+  "Bác sĩ có thể dùng HbA1c và xét nghiệm glucose máu để đánh giá đái tháo đường. Kết quả sàng lọc trên ứng dụng cần được đối chiếu với khám và xét nghiệm.",
+  "What tests are used to diagnose diabetes?"
+ ],
+ [
+  "W03",
+  "test",
+  "Phân loại",
+  "Chỉ số đường huyết đơn lẻ chưa đủ xác định típ bệnh. Trong một số trường hợp bác sĩ cần thêm tự kháng thể hoặc xét nghiệm di truyền.",
+  "Which tests help my doctor know what kind of diabetes I have?"
+ ],
+ [
+  "W04",
+  "overview",
+  "Típ 1",
+  "Ở típ 1, hệ miễn dịch tấn công các tế bào sản xuất insulin. Các triệu chứng có thể tiến triển nhanh.",
+  "What causes type 1 diabetes?"
+ ],
+ [
+  "W05",
+  "overview",
+  "Típ 2",
+  "Ở típ 2, cơ thể sử dụng insulin kém hiệu quả hoặc sản xuất chưa đủ insulin. Kế hoạch chăm sóc tùy vào tình trạng từng người.",
+  "What is type 2 diabetes?"
+ ],
+ [
+  "W06",
+  "pregnancy",
+  "Thai kỳ",
+  "Trong thai kỳ, kế hoạch ăn uống, vận động phù hợp và theo dõi đường huyết cần được thống nhất với đội ngũ sản khoa và điều trị.",
+  "Managing & Treating Gestational Diabetes"
+ ],
+ [
+  "W06",
+  "pregnancy",
+  "Điều trị thai kỳ",
+  "Nếu thay đổi lối sống chưa đủ, bác sĩ có thể cân nhắc insulin. Hãy trao đổi với bác sĩ trước khi dùng thuốc trong thai kỳ.",
+  "How is gestational diabetes treated?"
+ ],
+ [
+  "W07",
+  "food",
+  "Bữa ăn",
+  "Có thể chia đĩa ăn thành nửa đĩa rau ít tinh bột, một phần tư đạm nạc và một phần tư thực phẩm chứa carbohydrate. Chọn nước lọc hoặc đồ uống không thêm đường.",
+  "The plate method"
+ ],
+ [
+  "W07",
+  "food",
+  "Thực phẩm cần hạn chế",
+  "Ưu tiên thực phẩm ít chế biến. Hạn chế đường thêm vào và ngũ cốc tinh chế. Lượng carbohydrate và khẩu phần đều ảnh hưởng đến đường huyết.",
+  "Why a meal plan is important"
+ ],
+ [
+  "W08",
+  "medicine",
+  "Thuốc điều trị",
+  "Các lựa chọn điều trị có thể gồm thuốc uống, thuốc tiêm và insulin. Bác sĩ cân nhắc típ bệnh, mức đường huyết, bệnh đi kèm và các thuốc đang dùng.",
+  "What medicines might I take for diabetes?"
+ ],
+ [
+  "W08",
+  "medicine",
+  "Insulin",
+  "Người mắc típ 1 cần insulin. Với típ 2, lựa chọn thuốc được điều chỉnh theo từng người. Hãy trao đổi với bác sĩ điều trị trước khi bắt đầu, đổi liều hoặc ngừng một thuốc.",
+  "Insulin, Medicines, & Other Diabetes Treatments"
+ ],
+ [
+  "W09",
+  "complication",
+  "Biến chứng",
+  "Đái tháo đường có thể ảnh hưởng đến tim, thận, mắt và thần kinh. Khám định kỳ giúp phát hiện sớm các vấn đề để xử trí phù hợp.",
+  "Diabetes Complications"
+ ],
+ [
+  "W09",
+  "complication",
+  "Bàn chân",
+  "Tổn thương thần kinh có thể liên quan đến các vấn đề ở bàn chân. Hãy trao đổi với nhân viên y tế về kiểm tra bàn chân và bảo vệ thị lực.",
+  "Your Feet and Diabetes"
+ ],
+ [
+  "W10",
+  "low",
+  "Hạ đường huyết",
+  "Run, vã mồ hôi, đói hoặc lú lẫn có thể gặp khi đường huyết thấp. Người có nguy cơ nên thống nhất kế hoạch xử trí với nhân viên y tế.",
+  "Low Blood Sugar (Hypoglycemia)"
+ ],
+ [
+  "W10",
+  "urgent",
+  "Hạ đường huyết nặng",
+  "Lú lẫn nặng, co giật hoặc mất ý thức có thể xảy ra khi hạ đường huyết nặng. Nếu đang xảy ra, hãy gọi cấp cứu ngay.",
+  "Severe low blood sugar"
+ ],
+ [
+  "P01",
+  "food",
+  "Chất xơ",
+  "Hướng dẫn của Bộ Y tế gợi ý rau, đậu và ngũ cốc nguyên hạt trong chế độ ăn. Có thể chọn trái cây nguyên miếng thay cho nước ép.",
+  "PDF tr. 31–33 · Phần 4, Dinh dưỡng"
+ ],
+ [
+  "P01",
+  "test",
+  "Phân loại đái tháo đường",
+  "Hướng dẫn của Bộ Y tế mô tả típ 1, típ 2, đái tháo đường thai kỳ và các thể đặc hiệu khác. Việc xác định thể bệnh cần đánh giá lâm sàng.",
+  "PDF tr. 13 · Phần 2, Phân loại đái tháo đường"
+ ],
+ [
+  "P02",
+  "care",
+  "Theo dõi tại nhà",
+  "Bạn có thể cùng bác sĩ lập kế hoạch chăm sóc, ghi lại kết quả theo dõi và chuẩn bị những câu hỏi cần trao đổi ở lần tái khám.",
+  "PDF tr. 10–12 · Step 3, Learn how to live with diabetes"
+ ],
+ [
+  "P02",
+  "care",
+  "Tái khám",
+  "Kế hoạch tự chăm sóc hằng ngày gồm lựa chọn bữa ăn phù hợp, vận động theo khả năng, dùng thuốc theo đơn và duy trì lịch khám.",
+  "PDF tr. 10–13 · Steps 3–4"
+ ],
+ [
+  "W11",
+  "overview",
+  "Phòng ngừa típ 2",
+  "Vận động thường xuyên, duy trì cân nặng phù hợp và tránh thuốc lá có thể giúp ngăn ngừa hoặc trì hoãn đái tháo đường típ 2.",
+  "Bệnh đái tháo đường"
+ ],
+ [
+  "W12",
+  "food",
+  "Chọn món khi ăn ngoài",
+  "Khi ăn ở quán, bạn có thể chọn món hấp hoặc nướng, gọi thêm rau và yêu cầu để nước sốt riêng. Nhờ vậy bạn tự điều chỉnh được lượng sốt dùng trong bữa.",
+  "Order wisely"
+ ],
+ [
+  "W12",
+  "food",
+  "Khẩu phần ở nhà hàng",
+  "Nếu suất ăn ngoài quá lớn, bạn có thể chia món với người đi cùng hoặc để dành một phần cho bữa sau.",
+  "Share and savor"
+ ],
+ [
+  "W13",
+  "care",
+  "Bắt đầu đi bộ",
+  "Nếu mới tập vận động, bạn có thể bắt đầu bằng một buổi đi bộ ngắn sau bữa tối rồi tăng dần theo khả năng. Hãy hỏi bác sĩ nếu chưa rõ hoạt động nào phù hợp với mình.",
+  "You can start slowly"
+ ],
+ [
+  "W13",
+  "care",
+  "Đường huyết và tập thể dục",
+  "Đo đường huyết trước và sau khi đi bộ giúp bạn nhận biết cơ thể đáp ứng thế nào với vận động.",
+  "You can lower your blood sugar"
+ ],
+ [
+  "W14",
+  "complication",
+  "Kiểm tra bàn chân",
+  "Kiểm tra bàn chân mỗi ngày, kể cả khi không đau. Tìm vết trầy, phồng rộp, sưng hoặc đỏ. Có thể dùng gương hoặc nhờ người thân nhìn giúp lòng bàn chân.",
+  "Tips for healthy feet"
+ ],
+ [
+  "W14",
+  "complication",
+  "Mất cảm giác ở bàn chân",
+  "Tổn thương thần kinh có thể làm giảm cảm giác nóng, lạnh hoặc đau ở bàn chân. Vì thế vết thương nhỏ có thể bị bỏ sót.",
+  "Nerve damage"
+ ],
+ [
+  "W15",
+  "complication",
+  "Khám mắt và võng mạc",
+  "Một số bệnh mắt do đái tháo đường diễn tiến khi thị lực chưa thay đổi rõ. Hãy hỏi bác sĩ mắt về lịch khám có giãn đồng tử để phát hiện tổn thương sớm.",
+  "Key messages to share with your patients"
+ ],
+ [
+  "W16",
+  "complication",
+  "Xét nghiệm thận",
+  "Bệnh thận do đái tháo đường thường không gây triệu chứng sớm. Bác sĩ có thể xét nghiệm albumin trong nước tiểu và xét nghiệm máu để đánh giá khả năng lọc của thận.",
+  "How can I tell if I have diabetic kidney disease?"
+ ],
+ [
+  "W16",
+  "complication",
+  "Huyết áp và thận",
+  "Ở người mắc đái tháo đường, tăng huyết áp làm tăng nguy cơ bệnh thận. Hãy trao đổi về kiểm soát cả huyết áp và đường huyết khi theo dõi chức năng thận.",
+  "What increases my chances of developing diabetic kidney disease?"
+ ],
+ [
+  "W17",
+  "medicine",
+  "Metformin dùng để làm gì",
+  "Metformin là thuốc kê đơn giúp hạ đường huyết, có thể dùng trong điều trị đái tháo đường típ 2. Bác sĩ quyết định thuốc có phù hợp với từng người hay không.",
+  "What metformin is for"
+ ],
+ [
+  "W17",
+  "medicine",
+  "Tác dụng phụ của metformin",
+  "Buồn nôn, tiêu chảy hoặc đau bụng có thể xảy ra khi dùng metformin. Nếu các triệu chứng gây khó chịu hoặc kéo dài, hãy trao đổi với bác sĩ hoặc dược sĩ.",
+  "Side effects of metformin"
+ ],
+ [
+  "W17",
+  "medicine",
+  "Quên liều metformin",
+  "Nếu quên một liều metformin, không uống hai liều để bù. Kiểm tra hướng dẫn của đơn thuốc hoặc hỏi dược sĩ về lần uống tiếp theo.",
+  "If you miss a dose of metformin"
+ ],
+ [
+  "W18",
+  "test",
+  "HbA1c có cần nhịn ăn",
+  "Riêng xét nghiệm HbA1c không đòi hỏi nhịn ăn. Nếu buổi lấy máu còn có xét nghiệm đường huyết lúc đói, hãy làm theo hướng dẫn chuẩn bị cho xét nghiệm đó.",
+  "How is the A1C test used to diagnose type 2 diabetes and prediabetes?"
+ ],
+ [
+  "W18",
+  "test",
+  "Ý nghĩa HbA1c",
+  "HbA1c phản ánh mức đường huyết trung bình trong khoảng ba tháng. Kết quả này giúp theo dõi xu hướng dài hạn, còn máy đo đường huyết ghi nhận giá trị tại thời điểm đo.",
+  "What is the A1C test?"
+ ],
+ [
+  "W18",
+  "pregnancy",
+  "Xét nghiệm đái tháo đường thai kỳ",
+  "Khi cần kiểm tra đái tháo đường thai kỳ, bác sĩ thường dùng xét nghiệm thử thách glucose hoặc nghiệm pháp dung nạp glucose vào khoảng tuần 24 đến 28 của thai kỳ.",
+  "Is the A1C test used during pregnancy?"
+ ],
+ ["W01","overview","Tiền tiểu đường","Tiền tiểu đường là khi đường huyết cao hơn bình thường nhưng chưa đến mức chẩn đoán đái tháo đường típ 2. Người ở giai đoạn này có nguy cơ tiến triển lên típ 2.","Prediabetes"],
+ ["W02","overview","Đái tháo đường đơn gen","Một số thể hiếm do biến đổi ở một gen. Biến đổi có thể được di truyền hoặc xuất hiện lần đầu trong gia đình và thường làm tụy tạo ít insulin hơn.","Monogenic diabetes"],
+ ["W03","test","Nhịn ăn trước xét nghiệm glucose lúc đói","Để đo glucose huyết tương lúc đói, người được xét nghiệm thường lấy máu buổi sáng sau ít nhất 8 giờ nhịn ăn. Trong thời gian này chỉ uống nước lọc.","Fasting plasma glucose test"],
+ ["W04","test","Tự kháng thể và LADA ở người lớn","Ở một số người trưởng thành, quá trình tự miễn làm tổn thương tụy diễn ra chậm. Bác sĩ có thể dùng xét nghiệm tự kháng thể để đánh giá thể đái tháo đường tự miễn này.","Autoantibodies and latent autoimmune diabetes in adults"],
+ ["W05","overview","Tiền sử gia đình và nguy cơ típ 2","Người có người thân mắc đái tháo đường, ít vận động hoặc từng mắc đái tháo đường thai kỳ có nguy cơ mắc típ 2 cao hơn.","Who is more likely to develop type 2 diabetes?"],
+ ["W06","pregnancy","Ceton khi mang thai","Trong thai kỳ, ăn không đủ hoặc có đường huyết quá cao có thể khiến cơ thể tạo ceton. Bác sĩ có thể hướng dẫn kiểm tra ceton trong máu hoặc nước tiểu.","Follow a healthy eating plan"],
+ ["W07","food","Nước ép và trái cây nguyên quả","Cùng là trái cây, nước ép thường làm đường huyết tăng nhanh hơn so với ăn quả nguyên. Khi ăn thực phẩm chứa carbohydrate cùng chất xơ, đạm hoặc chất béo, đường huyết có thể tăng chậm hơn.","Why a meal plan is important"],
+ ["W08","medicine","Máy bơm insulin","Máy bơm có thể đưa insulin dưới da liên tục. Một số loại dùng dây dẫn, một số gắn trực tiếp lên da. Thiết bị có thể được lập trình theo nhu cầu insulin.","Pump"],
+ ["W09","complication","Thính lực và đái tháo đường","CDC liệt kê giảm thính lực trong nhóm biến chứng cần lưu ý và khuyến khích người bệnh kiểm tra thính lực định kỳ.","Hearing Loss"],
+ ["W10","low","Bỏ bữa và hạ đường huyết khi dùng insulin","Ăn ít carbohydrate so với lượng insulin đang dùng có thể làm đường huyết hạ. Thời điểm dùng insulin và mức vận động cũng ảnh hưởng đến nguy cơ này.","Causes"],
+ ["W10","low","Hạ đường huyết ban đêm","Ăn đều bữa giúp giảm nguy cơ hạ đường huyết ban đêm. Người đang ngủ có thể không tự thức giấc khi đường huyết hạ. Máy theo dõi glucose liên tục có thể phát cảnh báo.","Nighttime low blood sugar"],
+ ["W11","complication","Biến chứng mạch máu","Đái tháo đường có thể gây tổn thương mạch máu và thần kinh. Các hậu quả nghiêm trọng có thể gồm nhồi máu cơ tim và đột quỵ.","Bệnh đái tháo đường ở Việt Nam"],
+ ["W12","food","Chuẩn bị trước khi ăn ở nhà hàng","Xem trước thực đơn để có thời gian chọn món. Nếu bữa ăn muộn hơn thường lệ, CDC gợi ý một bữa phụ nhỏ có chất xơ và đạm rồi điều chỉnh khẩu phần ở bữa chính.","Plan ahead"],
+ ["W13","care","Vận động trong sinh hoạt hằng ngày","Có thể tăng vận động bằng cách dùng cầu thang hoặc đứng dậy đi lại khi xem tivi. Chọn một mục tiêu cụ thể, vừa sức để dễ theo dõi tiến bộ.","Small changes can make a difference · Be specific"],
+ ["W14","complication","Đi chân trần và chọn giày","Để bảo vệ bàn chân, nên mang giày hoặc dép phù hợp ngay cả khi ở nhà. Kiểm tra bên trong giày để phát hiện sỏi, vật lạ hoặc lớp lót gồ ghề.","Tips for healthy feet"],
+ ["W15","complication","Bảo vệ thị lực","Khi trao đổi về bảo vệ mắt, CDC khuyến khích chú ý đến HbA1c, huyết áp, cholesterol, việc bỏ thuốc lá và lịch khám mắt định kỳ.","Help your patients see the connection between diabetes management and healthy vision"],
+ ["W16","complication","Thói quen bảo vệ thận","Bỏ thuốc lá, vận động phù hợp và ngủ đủ giấc là những thói quen hỗ trợ bảo vệ thận ở người mắc đái tháo đường.","Develop or maintain healthy lifestyle habits"],
+ ["W17","medicine","Metformin và thực phẩm bổ sung","Trước khi dùng metformin, nên cho bác sĩ hoặc dược sĩ biết các thuốc, vitamin, thảo dược và thực phẩm bổ sung đang dùng để họ xem xét tương tác.","Taking metformin with other medicines, food and drink"],
+ ["W18","test","Thiếu sắt và độ tin cậy của HbA1c","Thiếu sắt nặng có thể khiến HbA1c cao giả. Mất máu hoặc truyền máu gần đây cũng có thể làm kết quả thay đổi. Hãy báo các yếu tố này khi trao đổi về kết quả xét nghiệm.","A1C tests can be affected by changes in red blood cells or hemoglobin"],
+ ["P01","complication","Đánh giá nguy cơ loét bàn chân","Bệnh thần kinh ngoại biên kèm biến dạng hoặc mất cảm giác ở chân là lý do để bác sĩ đánh giá nguy cơ loét bàn chân.","PDF tr. 37 · Mục 9, Chuyển tuyến"],
+ ["P02","care","Căng thẳng và đường huyết","Căng thẳng có thể làm tăng đường huyết. Hít thở sâu, đi dạo hoặc nghe nhạc là một số cách giảm căng thẳng được tài liệu gợi ý.","PDF tr. 10 · Step 3, Cope with your diabetes"],
+ ["P02","care","Răng miệng và đái tháo đường","Chải răng và làm sạch kẽ răng hằng ngày giúp chăm sóc răng và nướu. Khám nha khoa là một phần của kế hoạch chăm sóc định kỳ.","PDF tr. 12–13 · Steps 3–4"]
+]

@@ -1,0 +1,12 @@
+{
+  "provider": "ollama",
+  "model": "qwen3:8b",
+  "label": "Qwen3-8B",
+  "base_url": "http://127.0.0.1:11434",
+  "num_ctx": 4096,
+  "num_batch": 128,
+  "keep_alive": "1m",
+  "min_available_mib_loaded": 1024,
+  "min_available_mib_cold": 5120,
+  "request_timeout_seconds": 600
+}

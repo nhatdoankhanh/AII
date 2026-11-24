@@ -1,0 +1,42 @@
+01 | NIDDK | Tổng quan và các thể đái tháo đường
+https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes
+02 | NIDDK | Triệu chứng và nguyên nhân
+https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes
+03 | NIDDK | Xét nghiệm và xác định thể bệnh
+https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis
+04 | NIDDK | Đái tháo đường típ 1
+https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-1-diabetes
+05 | NIDDK | Đái tháo đường típ 2
+https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes
+06 | NIDDK | Quản lý đái tháo đường thai kỳ
+https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/gestational/management-treatment
+07 | CDC | Lập kế hoạch bữa ăn
+https://www.cdc.gov/diabetes/healthy-eating/diabetes-meal-planning.html
+08 | NIDDK | Insulin, các nhóm thuốc và điều trị
+https://www.niddk.nih.gov/health-information/diabetes/overview/insulin-medicines-treatments
+09 | CDC | Biến chứng
+https://www.cdc.gov/diabetes/complications/index.html
+10 | CDC | Hạ đường huyết
+https://www.cdc.gov/diabetes/about/low-blood-sugar-hypoglycemia.html
+11 | WHO Việt Nam | Phòng ngừa đái tháo đường típ 2
+https://www.who.int/vietnam/vi/health-topics/diabetes
+12 | CDC | Chọn món khi ăn ngoài
+https://www.cdc.gov/diabetes/healthy-eating/eating-out.html
+13 | CDC | Vận động và theo dõi đường huyết
+https://www.cdc.gov/diabetes/living-with/physical-activity.html
+14 | CDC | Chăm sóc bàn chân
+https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-your-feet.html
+15 | CDC | Bảo vệ thị lực và khám mắt
+https://www.cdc.gov/diabetes/hcp/clinical-guidance/promote-eye-health.html
+16 | NIDDK | Bệnh thận do đái tháo đường
+https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease
+17 | NHS | Công dụng và tác dụng phụ của metformin
+https://www.nhs.uk/medicines/metformin/
+18 | NIDDK | Hiểu về xét nghiệm HbA1c
+https://www.niddk.nih.gov/health-information/diagnostic-tests/a1c-test
+19 | WHO | T?ng quan, ch?n ?o?n, ?i?u tr? v? ph?ng ng?a ??i th?o ???ng
+https://www.who.int/news-room/fact-sheets/detail/diabetes
+20 | WHO | H?i ??p v? b?nh ??i th?o ???ng
+https://www.who.int/news-room/questions-and-answers/item/diabetes
+21 | CDC | Theo d?i v? qu?n l? ???ng huy?t
+https://www.cdc.gov/diabetes/treatment/
